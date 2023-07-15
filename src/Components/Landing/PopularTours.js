@@ -12,7 +12,8 @@ const PopularTours = () => {
                 <div className='card '>
                     {/* front side */}
                     <div className='front bg-gradient-to-b from-[#016c8a] to-[#09e3e3]'>
-                        <img className='h-[40%] w-full bg-white' style={{ clipPath: 'polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%)' }} src='/Images/card1.jpg' />
+                        {/* <img className='h-[40%] w-full bg-white' style={{ clipPath: 'polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%)' }} src='/Images/card1.jpg' /> */}
+                        <span className='h-[40%] w-full bg-white bg-cover bg-center' style={{ backgroundImage: "url('/Images/card1.jpg')", clipPath: 'polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%)' }}></span>
                         <span className=' h-fit w-fit font-bold mt-[10%]'>SEA EXPLORER</span>
                         <span className=' h-fit w-fit text-center mt-[5%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam</span>
                     </div>
@@ -28,7 +29,8 @@ const PopularTours = () => {
                 <div className='card'>
                     {/* front side */}
                     <div className='front bg-gradient-to-b from-[#016c8a] to-[#09e3e3]'>
-                        <img className='h-[40%] w-full bg-white ' style={{ clipPath: 'polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%)' }} src='/Images/card1.jpg' />
+                        {/* <img className='h-[40%] w-full bg-white ' style={{ clipPath: 'polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%)' }} src='/Images/card1.jpg' /> */}
+                        <span className='h-[40%] w-full bg-white bg-cover bg-center' style={{ backgroundImage: "url('/Images/card1.jpg')", clipPath: 'polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%)' }}></span>
                         <span className=' h-fit w-fit font-bold mt-[10%]'>SEA EXPLORER</span>
                         <span className=' h-fit w-fit text-center mt-[5%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam</span>
                     </div>
@@ -44,7 +46,8 @@ const PopularTours = () => {
                 <div className='card'>
                     {/* front side */}
                     <div className='front bg-gradient-to-b from-[#016c8a] to-[#09e3e3]'>
-                        <img className='h-[40%] w-full bg-white' style={{ clipPath: 'polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%)' }} src='/Images/card1.jpg' />
+                        {/* <img className='h-[40%] w-full bg-white' style={{ clipPath: 'polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%)' }} src='/Images/card1.jpg' /> */}
+                        <span className='h-[40%] w-full bg-white bg-cover bg-center' style={{ backgroundImage: "url('/Images/card1.jpg')", clipPath: 'polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%)' }}></span>
                         <span className=' h-fit w-fit font-bold mt-[10%]'>SEA EXPLORER</span>
                         <span className=' h-fit w-fit text-center mt-[5%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam</span>
                     </div>

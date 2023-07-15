@@ -16,7 +16,7 @@ const LandingFooter = () => {
                     e.preventDefault();
                     const section = document.getElementById('firstpage');
                     section.scrollIntoView({ behavior: 'smooth' });
-                }}><img className='h-[70px] w-[70px]' src='/Icons/flying-plane.png' /></Link></div>
+                }}><div className="h-[70px] w-[70px] ml-[2%] bg-cover bg-center" style={{ backgroundImage: "url('/Icons/flying-plane.png')" }} ></div></Link></div>
                 <div className='w-[35%] h-full flex flex-col justify-center items-end b'>
                     <div className='border-t-2 w-[80%] border-black'></div>
                     <span className='w-[80%] mt-[5%] h-fit'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur </span>

@@ -8,7 +8,9 @@ const FirstPage = () => {
             >
                 {/* header image */}
                 <div className=" relative w-full h-[10%] flex justify-between items-center">
-                    <img className="h-[70px] w-[70px] ml-[2%]" src="/Icons/flying-plane.png" alt="Flying Plane Icon" />
+                    {/* <img className="h-[70px] w-[70px] ml-[2%]" src="/Icons/flying-plane.png" alt="Flying Plane Icon" /> */}
+                    <div className="h-[70px] w-[70px] ml-[2%] bg-cover bg-center" style={{ backgroundImage: "url('/Icons/flying-plane.png')" }} ></div>
+
 
 
 

@@ -12,9 +12,9 @@ const Adventure = () => {
                     <span className='h-fit w-fit font-sans '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.</span>
                 </div>
                 <div className='w-[60%] h-full flex  relative'>
-                    <img className='h-[50%] w-[40%] ml-[15%] mt-[5%] transition-all duration-300 hover:scale-110 hover:z-10 ' src='/Images/nat-1.jpg' />
-                    <img className='h-[50%] w-[40%] absolute ml-[50%] mt-[10%] transition-all duration-300 hover:scale-110 hover:z-10' src='/Images/nat-2.jpg' />
-                    <img className='h-[50%] w-[40%] absolute mt-[20%] ml-[30%] transition-all duration-300 hover:scale-110 hover:z-10' src='/Images/nat-3.jpg' />
+                    <div className='h-[50%] w-[40%] ml-[15%] mt-[5%] transition-all duration-300 hover:scale-110 hover:z-10 bg-cover bg-center' style={{ backgroundImage: "url('/Images/nat-1.jpg')" }}></div>
+                    <div className='h-[50%] w-[40%] absolute ml-[50%] mt-[10%] transition-all duration-300 hover:scale-110 hover:z-10 bg-cover bg-center' style={{ backgroundImage: "url('/Images/nat-2.jpg')" }}></div>
+                    <div className='h-[50%] w-[40%] absolute mt-[20%] ml-[30%] transition-all duration-300 hover:scale-110 hover:z-10 bg-cover bg-center' style={{ backgroundImage: "url('/Images/nat-3.jpg')" }}></div>
                 </div>
             </div>
         </div>
