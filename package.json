@@ -1,0 +1,41 @@
+{
+  "name": "travel-f-end",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@material-tailwind/react": "^2.0.5",
+    "@mui/material": "^5.13.6",
+    "@mui/x-date-pickers": "^6.9.0",
+    "@mui/x-date-pickers-pro": "^6.9.0",
+    "antd": "^5.6.3",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "dayjs": "^1.11.8",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.7",
+    "moment": "^2.29.4",
+    "next": "13.4.7",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-date-picker": "^10.2.0",
+    "react-date-range": "^1.4.0",
+    "react-datepicker": "^4.14.1",
+    "react-dom": "18.2.0",
+    "react-modern-drawer": "^1.2.0",
+    "rsuite": "^5.37.0",
+    "tailwindcss": "3.3.2"
+  }
+}
