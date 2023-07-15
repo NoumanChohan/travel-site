@@ -1,7 +1,5 @@
 'use client'
 import React, { useState } from 'react'
-import Select from '../../Select/HotelSelect';
-import HotelSelect from '../../Select/HotelSelect';
 import Image from 'next/image';
 
 const Hotels = (prop) => {

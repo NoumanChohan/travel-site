@@ -4,7 +4,6 @@ import { Calendar, DatePicker } from 'antd';
 import 'antd/dist/reset.css';
 import 'react-date-range/dist/styles.css';
 import 'react-date-range/dist/theme/default.css';
-import moment from 'moment';
 import './../../../app/styles.css';
 
 const { RangePicker } = DatePicker;
