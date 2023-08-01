@@ -1,5 +1,4 @@
 'use client'
-import React, { useState } from 'react'
 import LandingFooter from './LandingFooter'
 import PopularTours from './PopularTours'
 import Adventure from './Adventure'

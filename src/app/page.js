@@ -1,10 +1,7 @@
 'use client'
 
-import Header from '@/Components/Header/Header'
 import Drawer from '@/Components/Landing/Drawer'
-import LandingFooter from '@/Components/Landing/LandingFooter'
 import LandingPage from '@/Components/Landing/LandingPage'
-import Main from '@/Components/Main/Main'
 import Image from 'next/image'
 import { useState } from 'react'
 

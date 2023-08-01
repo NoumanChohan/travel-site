@@ -19,8 +19,8 @@ const FirstPage = () => {
                 </div>
                 {/* outdoor section */}
                 <div className=' w-full h-[40%]  mt-[5%] flex flex-col gap-5 items-center justify-center'>
-                    <span className='animate-button w-fit h-fit font-sans font-bold text-7xl  text-white tracking-widest hover:inline-block hover:transition-all hover:duration-700  hover:translate-y-[-4px]  hover:scale-x-110'>OUTDOORS</span>
-                    <span className='animate-button w-fit h-fit font-sans text-4xl text-white tracking-widest hover:inline-block hover:transition-all hover:duration-700   hover:translate-y-[-4px]  hover:scale-x-110'>is where life happen</span>
+                    <span className='animate-button w-fit h-fit font-sans font-bold text-7xl  text-white tracking-widest '>OUTDOORS</span>
+                    <span className='animate-button w-fit h-fit font-sans text-4xl text-white tracking-widest'>is where life happen</span>
                     <Link href='popular_tours' onClick={(e) => {
                         e.preventDefault();
                         const section = document.getElementById('popular_tours');

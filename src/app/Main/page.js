@@ -20,7 +20,7 @@ const Main = () => {
     return (
         <>
             <Header />
-            <div className='w-full h-[90vh] bg-green-200  flex flex-col items-center'>
+            <div className='w-full h-[90vh] flex flex-col items-center'>
 
                 <Choose fun={handleChange} />
                 {/* <Search /> */}
